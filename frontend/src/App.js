@@ -37,7 +37,7 @@ function App(){
       <div className='container-fluid'>
         <Navbar.Brand>TodosApp</Navbar.Brand>
         <Nav className='me-auto'>
-          <Container>
+          <container>
             <Link class="nav-link" to={"/todos"}>Todos</Link>
             { user ? (
             <Link class="nav-link">Logout ({user})</Link>
@@ -47,7 +47,7 @@ function App(){
             <Link class="nav-link" to={"/signup"}>Sign Up</Link>
             </>
           )}
-          </Container>
+          </container>
         </Nav>
       </div>
     </Navbar>

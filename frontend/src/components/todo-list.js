@@ -1,6 +1,6 @@
 import React from "react";
 
-function TodoList(){
+function TodosList(){
     return(
         <div className="App">
             Todos List
